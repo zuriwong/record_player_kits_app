@@ -1,4 +1,4 @@
-# Record PLayer Kits App
+# Record Player Kits App
 
 ## Installation Steps
 
