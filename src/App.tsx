@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import ProductDisplay from './components/ProductDisplay';
 import { productData } from './data/productData';
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div className="app">
+      <Navbar />
       <Header
         productData={productData}
         onAddToCart={handleAddToCart}
